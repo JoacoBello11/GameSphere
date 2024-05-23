@@ -1,0 +1,72 @@
+*{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{         
+  min-height: 100vh;
+  height: 100%;
+  margin-top: 80px;
+}
+
+.title{ 
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+} 
+
+.opciones, .resultados {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.img__PPT{ 
+  margin-top: 10px;
+  width: 200px;
+  border-radius: 25px;
+}
+
+.boton {
+  background: transparent;
+  margin-right: 10px;
+  width: 220px;
+  border: 0 solid;
+  color: #fff;
+  font-weight: 700;
+}
+
+.img__PPT:hover{
+  background-color:#C68ADA;
+}
+
+.opciones{
+  background: transparent;
+}
+
+.nav__jugador, .nav__computadora{
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.img__resultado{
+  width: 200px;
+  border-radius: 25px;
+}
+
+.resultados p, .cont__resultado p{
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.cont__resultado{
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  text-align: center;
+}
